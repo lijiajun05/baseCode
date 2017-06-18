@@ -2,6 +2,7 @@ package string;
 
 public class SubstringQ {
 	public static void main(String[] args) {
+		//asd
 		String s="abcdef is good";
 		int length = s.length();
 		char c = s.charAt(1);
