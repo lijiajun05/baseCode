@@ -6,6 +6,7 @@ public class SplidQ {
 
 	public static void main(String[] args) {
 
+	//字符串的拆分
 		String s = "  a#2#sd#ada";
 		String s2 = "A#2#sd#ada";
 		boolean regionMatches = s.regionMatches(true,s.indexOf('a'), s2, 0, s2.length());//true位忽略大小写的比较
