@@ -31,6 +31,9 @@ public class SplidQ {
 		}
 	String copyValueOf = String.copyValueOf(charArray);
 	try {
+		if (bytes==null) {
+			return;
+		}
 		String string = new String(bytes, "UTF-8");
 		System.out.println(string);
 	} catch (UnsupportedEncodingException e) {
